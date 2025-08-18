@@ -4,14 +4,11 @@ export default function HomeScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Image
-        source={require('../../assets/images/axel1.jpg')}
+        source={require('../../assets/images/solecito.jpg')}
         style={styles.image}
       />
-      <Text style={styles.title}>Hola, soy Axel Daniel Estrada Malagón</Text>
       <Text style={styles.bio}>
-        Soy de Querétaro, me apasiona la tecnología y por el momento me esta llamando la atencion el desarrollo de aplicaciones móviles.
-        Me gusta aprender nuevas herramientas y compartir conocimiento.
-        Mis pasatiempos favoritos son: ver películas, tomar café, jugar videojuegos especiamente los rpg o de exploracion.
+       Hola mundo
       </Text>
     </ScrollView>
   );
